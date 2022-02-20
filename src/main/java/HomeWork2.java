@@ -1,3 +1,11 @@
+/**
+ * Java 1. Home work #2
+ *
+ * @author Elena
+ * version 19.02.2022
+ */
+
+
 public class HomeWork2 {
     public static void main(String[] args) {
         boolean result = checkSumSign(6, 18);
