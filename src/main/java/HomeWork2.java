@@ -14,6 +14,7 @@ public class HomeWork2 {
         boolean outcome = isNegative(-50);
         System.out.println(outcome);
         PrintFewWord("Elena", 7);
+        DetermineLeapYear(2022);
     }
 
     static boolean checkSumSign(int a, int b) {
@@ -36,6 +37,15 @@ public class HomeWork2 {
         for (int i = 1; i <= n; i++) {
             System.out.println(word);
         }
+    }
+    static void DetermineLeapYear(int y) {
+        if (y % 4 == 0) {
+            if ((y % 100 != 0) || (y % 400 == 0)) {
+                System.out.println("високосный");
+            }
+        }    else {
+                System.out.println ("Невисокосный");
+            }
     }
 
 }
