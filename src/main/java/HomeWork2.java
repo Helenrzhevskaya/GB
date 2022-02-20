@@ -1,7 +1,7 @@
 /**
  * Java 1. Home work #2
  *
- * @author Elena
+ * @author Elena Rzhevskaya
  * version 19.02.2022
  */
 
