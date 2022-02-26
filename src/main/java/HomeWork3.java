@@ -66,13 +66,14 @@ public class HomeWork3 {
         }
     }
     //Task5
-    static void lenAndInitialValue(int len, int initialValue) {
+    static int[] lenAndInitialValue(int len, int initialValue) {
         int[] arr4 = new int[len];
         for (int i = 0; i < len; i++) {
             arr4[i] = initialValue;
             System.out.print("[" + i + "]" + " ");
-        }
 
+        }
+        return arr4;
     }
 
 
